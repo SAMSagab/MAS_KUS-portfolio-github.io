@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+
+        <style>
+.newslatter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #f9004d;
+    outline: none;
+    border-radius: 20px;
+}
+.newslatter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    border: none;
+    outline: none;
+    padding: 10px 10px;
+    background-color: #f9004d;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+
+        </style>
+    </head>
+    <body>
+        <h2>Form Biodata Siswa</h2>
+
+        <div class="newslatter">
+            <form>
+            <label for="nama">Nama:</label>
+            <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama" style="letter-spacing: 1.3px;"><br>
+            <label for="alamat">Alamat:</label>
+            <input type="text-area" name="alamat id="alamat" placeholder="Alamat" style="letter-spacing: 1.3px;"><br>
+            <label for="tanggal">Tanggal</label>
+            <input type="date" name="tanggal" id="tanggal" value="" style="letter-spacing: 1px;"><br><br>
+            <label for="hobi">Hobi</label><br>
+            <input type="checkbox" name="hobi" id="hobi" value="Renang">
+            <label for="renang">Renang</label><br>
+            <input type="checkbox" name="ngoding" value="Ngoding">
+            <label for="ngoding">Ngoding</label><br>
+            </form>
+
+            <h2>Pendidikan</h2>
+            <form>
+            <label for="nama">TK:</label>
+            <input type="text" name="tk" id="tk" placeholder="Taman Kanak-kanak" style="letter-spacing: 0.3px;"><br>
+            <label for="nama">SD:</label>
+            <input type="text" name="sd" id="sd" placeholder="Sekolah Dasar" style="letter-spacing: 0.3px;"><br>
+            <label for="nama">SMP:</label>
+            <input type="text" name="smp" id="smp" placeholder="SMP" style="letter-spacing: 0.3px;"><br>
+            <label for="nama">SMK:</label>
+            <input type="text" name="smk" id="smk" placeholder="SMK/SMA" style="letter-spacing: 0.3px;"><br>    
+            </form>
+        </div>
+    </body>
+</html>
